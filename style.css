@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #feb4b4;
+    padding: 10px;
+}
+
+h1 {
+    color: #0a025e;
+    font-size: 40px;
+}
+
+section {
+    background: rgb(231, 221, 221);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 300px;
+    border-radius: 10px;
+    box-shadow: 8 8 20px rgba(0,0,0,0.1);
+}
+
+h2{
+    color: #0a025e;
+    font-size: 30px;
+}
+
+#displayCronometro, #displayTimer {
+    font-size: 25px;
+    margin: 10px;
+}
+
+button {
+    margin: 5px;
+    padding: 8px 15px;
+    border: none;
+    background: #4CAF50;
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button:hover {
+    background: #45a049;
+     transform: scale(1.05);
+}
+
+button:active {
+  transform: scale(0.95);
+  box-shadow: none;
+}
+
+input {
+    width: 80px;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    border-radius: 5px;
+}
